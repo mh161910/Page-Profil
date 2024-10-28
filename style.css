@@ -1,0 +1,91 @@
+body {
+   
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e5e7e6;
+    color: #333;
+    line-height: 1.7;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #93441A;
+}
+
+h1 {
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e5e7e6;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+#Top {
+    background-color: #B67332; /* Couleur du haut de la page */
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    background-color: #EEE6D8;
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card h2 {
+    color: #93441A;
+}
+
+.card p, .card ul {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.card ul {
+    padding: 0;
+    list-style: none;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+
+
+.responsive-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+    border: 5px solid #e5e7e6;
+}
+
+
+footer a {
+    color: #B67332; /* Couleur des liens du footer */
+    text-decoration: none;
+}
+
+
+
+#social-media a {
+    color: #B67332; /* Couleur des icônes de réseaux sociaux */
+    font-size: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+#social-media a:hover {
+    transform: scale(1.2);
+}
